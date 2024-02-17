@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Food Wagon</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="py-2">
+      <nav class="navbar navbar-expand-lg container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/Logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler respoBtn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse responCont"
+            id="navbarSupportedContent"
+          >
+            <div class="navbar-nav mx-auto mt-3">
+              <p>
+                Deliver to :
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="widthIcon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  />
+                </svg>
+                current location,
+                <span class="fw-bold">MuhammadPur Bus Stand Dhaka</span>
+              </p>
+            </div>
+            <form class="d-flex">
+              <div class="d-flex align-items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="widthIcon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                  />
+                </svg>
+                <span>Search Food</span>
+              </div>
+              <button class="btn" type="submit">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="widthIcon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                  />
+                </svg>
+
+                <span>Search</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main Section -->
+    <main>
+      <!-- HeroSection -->
+      <section>
+        <div class="bgImgage">
+          <div class="d-flex align-items-center container gap-5">
+            <div>
+              <h1 class="headingColor">Are you Starving?</h1>
+              <p>
+                Within a few clicks, find meals that are accessible near you
+              </p>
+              <div class="bg-white py-3 px-4 radiusCont">
+                <div class="d-flex gap-3">
+                    <p>Delivery</p>
+                    <p>
+                        Pickup
+                    </p>
+                </div>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-3 widthInput"
+                    type="search"
+                    placeholder="Enter your Address"
+                    aria-label="Search"
+                  />
+                  <button class="btn bgFind btnWitdh" type="submit">
+                    <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="FindIcon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                  />
+                </svg>
+                    Find Food
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="ptImage">
+                <img src="./assets/heroimg.png" alt="" width="400">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>

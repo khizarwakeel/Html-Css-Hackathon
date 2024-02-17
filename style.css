@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.widthIcon {
+    width: 20px;
+    color: #ffb30e;
+}
+
+
+.respoBtn {
+    border: none;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .responCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.bgImgage {
+    background-image: url(./assets/bg-img.png);
+    background-repeat: no-repeat;
+}
+
+.widthInput {
+    width: 400px;
+}
+
+.btnWitdh {
+    width: 120px;
+}
+
+.bgFind {
+    background-color: #f96222;
+    color: white;
+    width: 150px;
+    padding: 10px;
+}
+
+.FindIcon {
+    color: white;
+    width: 20px;
+}
+
+.radiusCont {
+    border-radius: 7px;
+}
+
+.headingColor {
+    color: white;
+    font-weight: bold;
+}
+
+.ptImage{
+    padding-top: 160px;
+}
