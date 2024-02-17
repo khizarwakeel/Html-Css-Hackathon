@@ -17,7 +17,7 @@
             ><img src="./assets/Logo.png" alt=""
           /></a>
           <button
-            class="navbar-toggler respoBtn"
+            class="btnTogle"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -57,7 +57,7 @@
                 <span class="fw-bold">MuhammadPur Bus Stand Dhaka</span>
               </p>
             </div>
-            <form class="d-flex">
+            <form class="d-flex gap-4">
               <div class="d-flex align-items-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@
                 </svg>
                 <span>Search Food</span>
               </div>
-              <button class="btn" type="submit">
+              <button class="btn btnShadow" type="submit">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -91,7 +91,7 @@
                   />
                 </svg>
 
-                <span>Search</span>
+                <span class="loginColor">Login</span>
               </button>
             </form>
           </div>
@@ -103,48 +103,67 @@
       <!-- HeroSection -->
       <section>
         <div class="bgImgage">
-          <div class="d-flex align-items-center container gap-5">
-            <div>
-              <h1 class="headingColor">Are you Starving?</h1>
-              <p>
-                Within a few clicks, find meals that are accessible near you
-              </p>
-              <div class="bg-white py-3 px-4 radiusCont">
-                <div class="d-flex gap-3">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg col-12">
+                <h1 class="headingColor mt-2">Are you Starving?</h1>
+                <p>
+                  Within a few clicks, find meals that are accessible near you
+                </p>
+                <div class="bg-white py-3 px-4 radiusCont">
+                  <div class="d-flex gap-3">
                     <p>Delivery</p>
-                    <p>
-                        Pickup
-                    </p>
+                    <p>Pickup</p>
+                  </div>
+                  <form class="d-flex flex-column flex-md-row">
+                    <input
+                      class="form-control me-3 widthInput"
+                      type="search"
+                      placeholder="Enter your Address"
+                      aria-label="Search"
+                    />
+                    <button class="btn bgFind btnWitdh" type="submit">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="FindIcon"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                        />
+                      </svg>
+                      Find Food
+                    </button>
+                  </form>
                 </div>
-                <form class="d-flex">
-                  <input
-                    class="form-control me-3 widthInput"
-                    type="search"
-                    placeholder="Enter your Address"
-                    aria-label="Search"
-                  />
-                  <button class="btn bgFind btnWitdh" type="submit">
-                    <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="FindIcon"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-                  />
-                </svg>
-                    Find Food
-                  </button>
-                </form>
+              </div>
+              <div class="col-md col-12 contPadding">
+                <img src="./assets/heroImage.png" alt="" class="HeroImage" />
               </div>
             </div>
-            <div class="ptImage">
-                <img src="./assets/heroimg.png" alt="" width="400">
+          </div>
+        </div>
+      </section>
+      <!-- Menues -->
+      <section class="pt-5">
+        <div class="container">
+          <div class="row row-gap-4">
+            <div class="col-lg col-12 col-md-6">
+              <img src="./assets/img1.png" alt="" class="imgcard" />
+            </div>
+            <div class="col-lg col-12 col-md-6">
+              <img src="./assets/img2.png" alt="" class="imgcard" />
+            </div>
+            <div class="col-lg col-12 col-md-6">
+              <img src="./assets/img3.png" alt="" class="imgcard" />
+            </div>
+            <div class="col-lg col-12 col-md-6">
+              <img src="./assets/img4.png" alt="" class="imgcard" />
             </div>
           </div>
         </div>

@@ -4,15 +4,35 @@
     box-sizing: border-box;
 }
 
-
 .widthIcon {
     width: 20px;
     color: #ffb30e;
 }
 
+.btnTogle {
+    display: none;
+}
 
-.respoBtn {
-    border: none;
+@media only screen and (max-width: 768px) {
+    .btnTogle {
+        padding: 4px;
+        border: none !important;
+        background-color: transparent;
+        display: block;
+    }
+}
+
+.respoBtn:focus {
+    border: 5px solid pink;
+    outline: none;
+}
+
+.btnShadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.loginColor {
+    color: #ffb30e;
 }
 
 
@@ -29,11 +49,15 @@
 .bgImgage {
     background-image: url(./assets/bg-img.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .widthInput {
     width: 400px;
 }
+
+
 
 .btnWitdh {
     width: 120px;
@@ -46,6 +70,20 @@
     padding: 10px;
 }
 
+@media only screen and (max-width: 425px) {
+    .widthInput {
+        width: 100%;
+    }
+
+    .bgFind {
+        background-color: #f96222;
+        color: white;
+        width: 150px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
+
 .FindIcon {
     color: white;
     width: 20px;
@@ -55,11 +93,58 @@
     border-radius: 7px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .radiusCont {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .radiusCont {
+        width: 100%
+    }
+}
+
 .headingColor {
     color: white;
     font-weight: bold;
+    font-size: 50px;
 }
 
-.ptImage{
-    padding-top: 160px;
+@media only screen and (max-width: 768px) {
+    .headingColor {
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
+
+.HeroImage {
+    width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+    .HeroImage {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .HeroImage {
+        width: 100%;
+    }
+}
+
+.contPadding {
+    margin-top: 140px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contPadding {
+        margin-top: 10px;
+    }
+}
+
+.imgcard {
+    width: 100%;
 }
